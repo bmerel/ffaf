@@ -39,7 +39,7 @@ app.use('/', postBodyRoute);
 app.use('/', dockerRoute);
 
 // placeholder
-app.get('*', noRoute.noRoute);
+//app.get('*', noRoute.noRoute);
 
 // placeholder
 app.use(errorHandler.errorHandler);
